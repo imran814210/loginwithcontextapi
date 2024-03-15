@@ -15,12 +15,12 @@ function Login(){
             value={username}
             onChange={(e)=>setUsername(e.target.value)}
             placeholder="username" 
-            className="p-1 rounded-lg"/>
+            className="p-1 rounded-lg dark:text-black"/>
             <input type="password" 
             value={password}
             onChange={(e)=>setPassword(e.target.value)}
             placeholder="password"
-            className="p-1 rounded-lg"/>
+            className="p-1 rounded-lg dark:text-black"/>
             <button onClick={handleSubmit} className="dark:border-2 bg-black p-1 m-1 text-white rounded-lg">Submit</button>
         </div>
     )
